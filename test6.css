@@ -1,0 +1,36 @@
+
+body{ margin:0px; }
+        
+p {
+  margin:10px;
+  padding:20px; 
+  background-color:lightgray;
+  border-radius: 10px;
+}
+
+.fc {
+  display:flex;
+  flex-flow: row wrap;
+}
+
+.first, .third, .fourth {
+  flex-grow: 1;
+  flex-shrink: 1;
+	/*
+	flex: 1;
+  */
+}
+
+.second {
+  flex-grow: 2;
+  flex-shrink: 1;
+	/*
+	flex: 2;
+  */
+}
+
+first
+
+        
+		
+		

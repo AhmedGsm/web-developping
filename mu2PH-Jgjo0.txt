@@ -1,0 +1,235 @@
+In this video, we'll take a look at how to use
+the audio control and
+the video control in your HTML5 document.
+We'll start with the audio control,
+and show a couple of different ways of using
+the audio element within your HTML5 documents.
+Over in my assets folder,
+I have an audio and a video folder.
+And within the audio folder,
+I have an MP3 and I have a wave file.
+And we'll see the example of using
+each one of those in our audio controls,
+and perhaps the reason why you might want to have
+both available in your document.
+So to start with, let's go ahead and open up an element,
+and we will specify
+the audio element for this particular instance.
+And what we'll do initially,
+is we'll set up the source.
+And for this one here,
+we're going to make use of
+our assets in the audio folder,
+and then within that audio folder,
+we're going to use the first file that we have which
+is our test_audio.wav file.
+So, for test_audio.wav is
+the wave file that we want to use
+for this particular element.
+And then one of the things that we'll also do is
+make sure that we enable the controls,
+because we will need to
+allow the user to interact with this.
+So we want to have the controls put in here as well.
+And the other option that you can
+specify, before we put the controls,
+is we'll also work with the type.
+So we want to specify the type of element,
+basically the type of audio that we're working with.
+So we can specify type= and in this case here,
+we'll go through the process of putting it as an audio,
+and then we'll call it wav.
+So we've got an audio/wav file.
+And then, close out the audio tag itself,
+and then we have that built into our document.
+And let's run a control K,
+control B from Visual Studio code,
+and that allows us to preview in the browser.
+So as you can see, we do indeed
+have our audio control in here.
+We've got a file that's
+about one minute and 36 seconds long,
+and we can go ahead and we can play that audio file.
+And then the user has control because we've
+specified that controls attribute for that audio element.
+And it gives the user the ability to start,
+stop, and pause, adjust the volume, etc.
+Now there is a potential,
+where you may run across an instance where
+a browser doesn't support one particular audio file.
+And in this case, we've specified a wav file,
+but we might run into the situation
+where a browser doesn't support a wav file,
+and perhaps we have to use
+an MP3 file for a different type.
+So what we're going to do is,
+we'll take out our source attribute,
+and we'll take out the type attribute.
+And the only thing that we're
+going to leave in here is just
+simply audio and controls.
+And we need to
+nest our other elements within the audio element.
+So let's go ahead and put in a closing audio element.
+And then within that,
+we can now make use of
+multiple audio type files
+by specifying multiple source elements.
+So in this case, we want to use,
+rather than src, we want to
+use the source element itself.
+And so we'll specify source.
+I'm just going to paste my text in here for
+now just to complete this particular one.
+And we can see that this is
+our audio type format that we want to specify.
+So source, and then we have our src element,
+we have the type specified.
+Now, we'll go ahead and we'll add a
+second source element here.
+And this one here.
+Again, I'm just going to use the magic of cut and paste,
+but this time, what I'm going to do is specify that
+we'll be dealing with our MP3 file.
+And then we change our type over
+here to actually be MPEG.
+So now, basically, we have
+identical elements with the exception of the file type,
+and the file name that we're using.
+And then, what you'll notice is that,
+as this gets autosave for me,
+if I come back and refresh my browser,
+you don't see any change in the browser.
+We still only have one control but,
+perhaps you're thinking we should have two controls,
+because we got two audio files specified.
+In essence, what the browser is doing is it's saying,
+"If I support the first file, I'll play it.
+If I don't support it,
+then I'll attempt the next file that's
+in the list and I'll play that one if I support it."
+So it's a way of allowing you to support
+multiple file types depending
+on what browser the user might have.
+So that's an example of working with
+the audio element within the HTML5.
+But what about dealing with the video element?
+Well, let's go ahead and remove our audio controls,
+and then we'll start working with the video element.
+Now, I have a video element down
+here, which is test_video.mp4,
+and we'll make use of that in our HTML document.
+So to do that, I'm going to specify a video element.
+And in this case, I will use a source element as well,
+or a source attribute rather.
+And in the source attribute,
+we are in our assets folder,
+And in this case, we're in the video folder.
+and then we have the video called "test_video",
+and it is in MP4 format.
+So this is our MP4 video.
+Now, we can close out that video tag,
+and then if we come back and refresh our browser,
+we see that we have a video in here.
+But you might notice, of course,
+my browser window is a little small,
+but this video is quite large.
+I also don't have any controls in here.
+So if I expand my browser window just a bit more,
+you'll see that I do have
+a rather large picture or
+a rather large video placeholder in here.
+There are no controls.
+So, one of the things we want to do is make sure that
+we add the controls attribute in here,
+which then verifies or ensures
+that the user has the ability to control,
+start, stop, pause, as we see down here now.
+So, this is just bringing in the video itself.
+But what if we have issues with the video in
+terms of the file size and
+we want to fix that up a little bit?
+Well, we can also specify
+a width and height for the video element.
+So again, what I'm going to do is just to
+make things a little cleaner and easier to see,
+we'll change to our alternative format
+for dealing with this video element.
+In which case, we will specify that we want to put
+our video element as
+a standard type of an element with an open and close tag.
+And then within here,
+we will specify our source.
+So again, like the audio,
+we'll use the source tag or the source element,
+and then we will paste any attribute which gives us
+our location for the file on our system.
+And then we can also specify a type here as well.
+So video files actually have
+a type and those are typically of video,
+and then with the forward slash and the type.
+And in this case, we're dealing with an MP4 video type.
+So we will use that and specify
+that it is an MP4 video type,
+and then we will close out that tag itself.
+And now, what we can do is,
+we can go back and make some changes to
+the video element itself
+by adding a couple of more attributes.
+We will specify 'width'. So we want the width.
+And in this case, we'll give it
+just a value of 600 to start with,
+and then we'll set the height for
+that same 'height' parameter.
+We'll use 600 for the value in here as well.
+So let's go ahead and give this a refresh and
+see how things have changed a little bit.
+Now, you'll notice that
+our video element doesn't take
+up the entire browser window or larger.
+It actually gives us the ability
+to specify the size which we have,
+and then our controls are directly down here below.
+So we can play the video,
+and we see that the video file indeed begins to play.
+Now, one of the things you might notice is that,
+oops, we don't have any captions in here.
+Can we support that?
+Absolutely. So what we'll do is go
+back to our HTML one more time.
+And then after our source element,
+we want to go ahead and enter or add in a new element.
+And this one here will allow us to
+specify that we want to work with,
+in this instance, video captioning.
+All right? So we have some closed captioning
+that is available for this.
+How we put that in place is through
+the use of something called the 'track' element.
+And again, this needs to have a 'source' element.
+So we need to know where to find
+that video captioning file.
+And in this case here, it is in our assets folder.
+It is in the video folder,
+and it is known as "test_cap.vtt".
+So it's a video transcript file.
+It's a very specific file format.
+We also should specify,
+rather than type, we specify kind, in this instance.
+And we say that the 'kind=captions'.
+So that specifies the captions,
+and then we can also put a default attribute in
+here as well to specify that this
+would be the default captions for this video.
+Now that we've got that in place,
+autosave has already taken
+care of saving the file for us.
+Let's expand this a little bit more,
+do a refresh on the page, we have our video.
+And then when we click on the play,
+once the artist starts talking,
+you'll see that we now have
+closed captioning enabled on our video,
+and we can turn it on or turn it off right down here.
+So that's a quick example of how to use
+audio and video tags in your HTML5 document.

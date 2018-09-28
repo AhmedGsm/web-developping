@@ -1,0 +1,218 @@
+1-List of supported attribute for <area> tag:
+alt href target rel media hreflang type shape coords
+
+2-two paragraphs take the  same style
+Test with w3 validator:
+Error: Duplicate ID parag
+3-Yes th 'src' attribute exist
+Its role is:
+Specifies the URL of the media file
+Element that support it are:
+    audio  embed  iframe img input script source  track  video  
+
+3-
+<h2>Start from 11</h2>
+  <ol start="11" title="Activity List" >
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+  </ol>
+  <h2>reverse list</h2>
+  <ol reversed title="Activity List" >
+    <li>item</li>
+    <li>itemitem</li>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+  </ol>
+  
+  
+  
+  
+  
+  Unlike 
+hyphen 
+Identifying 
+aspects 
+subset
+should 
+distinction 
+You can also add other subtags, such as scripts and variant labels to further refine the 
+language
+However
+specify 
+elaborate
+It is very useful to elaborate abbreviations or add some context
+overwhelming
+start off
+
+
+
+
+
+
+
+
+
+
+
+Activities - Semantic meaning and discussion
+Activities - Semantic meaning
+Please find below suggested activities to help you practice:
+
+   1- How are <header> and <h1> related? What is the difference between them?
+   2- Create a well structured HTML page using as many semantic elements as you can.
+   3- Write a short HTML page that uses the <div> and <span> tags. You need not style them.
+	
+1-
+<header> and <h1> both represent heading of web page, 
+Difference between them:
+<h1> used for main titles
+<header> used to represent main heading of them page, it might contains logo images, main titles, main navigation,
+ main web site introductory,.. 
+and it could be used such as a heading of semantic elements such as article, section
+
+
+2, 3
+ writing code using semaantic, div, span elements
+ 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<title>Semantic Elements Exercise Training (EDX)</title>
+  </head>
+  
+  <body>
+  
+    <header>
+	  <h1>MAIN TITLE</h1>
+	  <figure>
+	    <img src="images/logo.png" title="Logo image" alt="This my custom logo!!" />
+		<figcaption>1.Custom logo</figcaption>
+	  </figure>
+	  <nav>
+	  	  <ul>
+	  	    <li> <a href="#link">Menu item 1</a></li>
+	  	    <li> <a href="#link">Menu item 2</a></li>
+	  	    <li> <a href="#link">Menu item 3</a></li>
+	  	    <li> <a href="#link">Menu item 4</a></li>
+	  	    <li> <a href="#link">Menu item 5</a></li>
+	  	    <li> <a href="#link">Menu item 6</a></li>
+	     </ul>
+	  </nav>
+	</header>
+    
+    <main>
+	
+	    <h2>SUBMAIN TITLE 1</h2>
+	    <section>
+		  <h3>Section One</h3>
+		  <p>
+		  In early operating systems, such as MS-DOS, which employed 
+		  command-line interfaces (CLIs), the <mark> screen display consisted</mark> of 
+		  characters mapping <strong>directly to a screen</strong> buffer in memory and a cursor position.
+		  Input was by keyboard. All this information could therefore be obtained from the
+		  system either by hooking the flow of <em>information around </em>the system and reading the screen buffer
+		  or by using a standard hardware output socket[10] and communicating the results to the user.
+		  </p>
+		    <ol>
+			  <li> item 1</li>
+			  <li> item 2</li>
+			  <li> item 3</li>
+			  <li> item 4</li>
+			  <li> item 5</li>
+			</ol>
+	    </section>
+		<hr>
+	    <section>
+		  <h3>Section Two</h3>
+		  <details>
+		    <summary>summary 1 </summary>
+		    <p>
+		    For example, the operating system might send messages to draw a command button and its caption. 
+		    These messages are intercepted and used to construct the off-screen model. The user can switch between
+		    controls (such as buttons) available on the screen and the captions and control contents will be read 
+		    aloud and/or shown on refreshable Braille display.
+		    Screen readers can also communicate information on menus, controls, and other visual constructs to 
+		    permit blind users to interact with these constructs. However, maintaining an off-screen model is a 
+		    significant technical challenge; hooking the low-level messages and maintaining an accurate model are both 
+		    difficult tasks  <abbr title="Hypertext Markup Language">HTML</abbr>
+		    </p>
+	      </details>
+		  <div>
+		    <p>
+			JavaScript supports different kinds of loops:
+		    for - loops through a block of code a number of times
+		    for/in - loops through the <span id="mytest"> properties of </span>an object
+		    while - loops through a block of code while a specified condition is true
+		    do/while - also loops through a block of code while a specified condition is true
+		    </p>
+	      </div>
+		</section>
+		<hr>
+	  <article>
+	    <h2>Cloud-based</h2>
+	    Some telephone services allow users to interact with the internet remotely. For example, TeleTender can read 
+		web pages over the phone and does not require special programs or devices on the user side.[citation needed]
+	  </article>
+	  <hr>
+	  <aside>
+	    <p>
+	    Screen readers can be assumed to be able to access all display content that is not intrinsically inaccessible. 
+		Web browsers, word processors, icons and windows and email programs are just some of the applications used 
+		successfully by screen reader users. However, according to some users,[who?] using a screen reader is 
+		considerably more difficult than using a GUI, and many applications have specific problems resulting from the 
+		nature of the application (e.g. animations in Macromedia Flash) or failure to comply with accessibility standards 
+		for the platform (e.g. Microsoft Word and Active Accessibility).
+		</p>
+	    <p>
+		  <code> 
+		  var i;<br>
+		  for (i = 0; i &lt; cars.length; i++) {<br>
+    		  text += cars[i] + "";<br>
+		  } <br>
+		  </code>
+		  
+		</p>
+	  </aside>
+	  
+    </main>
+	  <hr>
+    
+    <footer>
+	<h3>Personal information</h3>
+	  <address>n100 Beni Hamad,Mchedallah BOUIRA ALGERIA</address>
+	  PHONE: +213552097964 <br>
+	  EMAIL:Ahmed.gsm1983@gmail.com
+	<p> All rights reserved </p>
+	
+    </footer>
+    
+  </body>
+  
+</html>
+
+
+Activities - Hyperlinks and discussion
+Activities - Hyperlinks
+
+1-Browser provides an error and reporting that link is not found on server
+2-
+CONTACT ME:
+I am a web developper i am studing on my best web site EDX, at this time i am learning about "HTML5 and CSS Fundamentals" course,
+ i wish to complete this course, why not other courses, after that i 'll start my new job as a freeLancer!!
+ My contact information:
+ Facebook :KHABER Ahmed
+ Email :Ahmed.gsm1983@gmail.com
+ 
+ 
+ 3- In Google Chrome :
+ The file downloaded normally
+ In Internet Explorer the file run such as that file opened in IE browser
+ 
+ 4-
+ In chrome all operation done normally
+ In Internet Explorer when we used _blank for target attribute the linked file opened in another windows not tab

@@ -1,0 +1,24 @@
+
+
+* {
+	border : 1px red solid ;
+ }
+
+ol {
+	border : 1px red solid ;
+  /*list-style-position : outside ;*/
+ }
+ 
+ol  li{
+ }
+ 
+h1 {
+  text-align : center ;
+  font-family : sans-serif ;
+  color : rgb(210,30,30) ;
+}
+ 
+
+
+	
+	

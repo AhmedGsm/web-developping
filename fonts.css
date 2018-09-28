@@ -1,0 +1,19 @@
+
+ol, ul {
+	border:1px red solid ;
+}
+ 
+ol  li{
+  list-style-type:lower-alpha;
+}
+ 
+h1 {
+  font-family: sans-serif ;
+  color: rgb(210,30,30) ;
+}
+ 
+ul li {
+ list-style-image: url('images/my_triangle.png') ;
+}
+
+

@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>Flexbox</title>
+  <!--<link rel="stylesheet" href="test6666.css" />-->
+    <style>
+        body{ margin: 0; }
+        
+        p {
+        }
+		
+		.fc {
+		  border: 5px solid green;
+		  display: flex;
+		  flex-flow: row wrap;
+		  /*
+		  min-height: 100vh;
+		  */
+		  min-height: calc(100vh - 200px);
+		  box-sizing: border-box; 
+
+        }
+		
+		.fc > * {
+		  border: 1px solid red;
+		  background-color: rgb(230,230,230);
+		  margin: 10px;
+		  padding: 10px;
+		  border-radius: 10px;
+		  min-width: 200px; 
+		  /*
+		  
+		  flex-grow: 1;
+		  flex-shrink: 1;
+		  flex-basis: 0;
+		  */
+		  
+		  flex: 1;
+        }
+		
+		 header, footer {
+		  border: 1px solid red;
+		  
+		  box-sizing: border-box;
+		  width: 100vw;
+		  height: 100px;
+
+        }
+    </style>
+</head>
+<body>
+  <header>
+  the header
+  While watching a video or a movie on VLC Player, sometimes you face a problem in understanding as to 
+  what is being said. One of the biggest reason for this problem can be language barrier. Well, the only 
+  solution to this problem is Subtitles.
+  </header>
+  <div class="fc">
+  
+  
+  <div>
+  <aside>
+  first column
+  Now, the subtitles will begin to play. There’s an alternate method of using SRT files while playing the video,
+  and that is by dragging the SRT file in VLC Player window while the video is playing. Now you can sit back and 
+  </aside>
+  </div>
+  
+  <div>
+  <main>
+  the main content should be here
+  switched-mode power supply (switching-mode power supply, switch-mode power supply, switched power 
+  supply, SMPS, or switcher) is an electronic power supply that incorporates a switching regulator to
+  convert electrical power efficiently. Like other power supplies, an SMPS transfers power from a DC 
+  or AC source (often mains power) to DC loads, such as a personal computer, while converting voltage
+  and current characteristics. Unlike a linear power supply, the pass transistor of a switching-mode 
+  supply continually switches between low-dissipation, full-on and full-off states, and spends very little 
+  time in the high dissipation transitions, which minimizes wasted energy. Ideally, a switched-mode power 
+  supply dissipates no power. Voltage regulation is achieved by varying the ratio of on-to-off time.
+  In contrast, a linear power supply regulates the output voltage by continually dissipating power in the 
+  </main>
+  </div>
+  
+  <div>
+  <section>
+  <h1>section section section section section </h1>
+  this is the third column
+  A linear regulator provides the desired output voltage by dissipating excess power in ohmic losses (e.g., in a resistor or in the collector–emitter region of a pass transistor in its active mode). A linear regulator regulates either output voltage or current by dissipating the excess electric power in the form of heat, and hence its maximum power efficiency is voltage-out/voltage-in since the volt difference is wasted.
+  </section>
+  </div>
+  
+  
+  </div>
+  
+  <footer>
+  the footer
+  When starting any website project, it's natural to want to concentrate your design efforts on the homepage and the header. As a result, the footer often becomes an afterthought - relegated to a poorly designed dumping ground for copyright information, legal disclaimers and spammy SEO links. But it shouldn't be this way.
+  </footer>
+
+  </body>
+</html>

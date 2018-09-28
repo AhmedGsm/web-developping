@@ -1,0 +1,42 @@
+
+ tr, th, td{
+  border: 3px solid black;
+}
+th, td{
+  padding: 15px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.heading-table {
+  background-color: rgb(150,150,150);
+}
+.body-table {
+  background-color: rgb(200,200,200);
+}
+
+/******************/
+.table-good tr, th, td {
+  border: 2px solid white;
+}
+
+.table-good thead tr {
+  background-color: rgb(95,130,220);
+  color:white;
+}
+
+
+.table-good tbody tr:nth-child(odd) {
+  background-color: rgb(190,200,240);
+}
+
+.table-good tbody tr:nth-child(even) {
+  background-color: rgb(220,230,250);
+}
+
+table.table-good tr:hover {
+  background-color: yellow;
+}
