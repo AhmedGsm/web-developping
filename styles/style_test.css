@@ -1,0 +1,50 @@
+
+body{
+  cursor:pointer;
+}
+#div_services_types >div{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-wrap:wrap;
+  justify-content: space-around; 
+  -webkit-justify-content: space-around; 
+  -moz-justify-content: space-around;
+  padding-left:0;
+  padding-right:0;
+}
+
+#div_services_types .card{
+  /*max-width:100%;
+  flex-basis:400px;
+  height:400px;
+  */
+  width:200px;
+  min-width:200px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:15px;
+	/*
+  display:inline-flex;
+  margin-left:auto;
+  margin-right:auto;
+	*/
+}
+#div_services_types>.card>img{
+	/*
+  height:400px;
+  width:400px;
+	border:2px red solid;
+  display:inline-flex;
+  margin-left:auto;
+  margin-right:auto;
+	*/
+}
+
+#div_services_types .card .btn{
+	/*
+  margin-left:auto;
+  margin-right:auto;
+	*/
+}
+
